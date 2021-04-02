@@ -1,0 +1,798 @@
+ *{
+    padding: 0;
+    margin: 0;
+
+ }
+ 
+ 
+ #head{
+
+     background: #e0ebe8;
+    display:flex;
+  
+}
+#toy{
+
+     background: #e0ebe8;
+    flex: 1;
+    
+}
+#image1{
+  
+    width: 5em;
+    padding-left: 14em;
+
+}
+#list{
+     background: #e0ebe8;
+    flex: 1;
+ 
+ 
+}
+#list1{
+   list-style-type: none;   
+   display: flex; 
+   justify-content:space-evenly;
+   padding: 1em 10em 0em 5em;
+  
+}
+
+#hiimg{
+    display: flex;   
+    width: 14%;
+    
+    margin: auto;
+    height: 7.5em; 
+    border-radius: 87px;
+}
+#image2{
+    height: 9em;
+}
+#clouddiv{
+   
+    height: 15em;  
+     background: #e0ebe8;
+    display:flex;
+}
+#cdiv1{
+    display:flex;
+    flex:1;
+  
+     background: #e0ebe8;
+    flex-direction: row-reverse;
+}
+#cdiv2{
+    display:flex;
+    flex:1.3;
+     background: #e0ebe8;
+    flex-direction: column;
+    justify-content: center
+}
+#cdiv3{
+    display:flex;
+    flex:1;
+  
+     background: #e0ebe8;
+}
+#cloudpic1{
+    width: 9em;
+    height: 3em;
+    padding-top: 9em;
+}
+#cloudpic2{
+    width: 9em;
+    height: 3em;    
+    padding-top: 4em; 
+}
+@font-face{
+    font-family: ram;
+    src: url(khong.ttf);
+}
+#ram{
+    text-align: center;
+    font-family: ram;
+    font-size: 6em;
+    color: #45b29a;
+}
+#web{
+    text-align: center;
+    color: #45b29a;
+}
+#treediv{
+    display:flex;
+  
+     background: #e0ebe8;
+    height: 19em;
+}
+#tdiv1{
+    flex:1;
+  
+     background: #e0ebe8;
+}
+#tdiv2{
+    flex:2;
+     background: #e0ebe8;
+    display:flex;
+}
+#tdiv3{
+  
+     background: #e0ebe8;
+    display:flex;
+    flex:1;
+}
+.about:hover{
+    color: #000;
+}
+.about{
+    font-size: 1.3em;
+    color: black;
+
+}
+a:hover{
+    color: #000;
+}
+a {
+    text-decoration: none;
+    color: #45b29a;
+    }
+.Work:hover{
+    color: #000;
+}
+.Work{
+    color: #45b29a;
+    font-size: 1.3em;
+}
+.notes:hover{
+    color: #000;
+}
+.notes{
+    color: #45b29a;
+    font-size: 1.3em;
+}
+#toydiv2{
+    
+    display:flex;
+    height: 25em;
+}
+#tow1{
+    
+    display:flex;
+    flex:1;
+}
+#tow2{
+
+    display:flex;
+    flex:3.4;
+    flex-direction: column;
+}
+#tow3{
+  
+    display:flex;
+    flex:1;
+}
+#hi{
+    text-align: center;
+    line-height: 3em;
+    color: #1e836c;
+    font-size: 1.5em;
+}
+.w1{
+    text-align: center;
+    padding: 0.2em;
+}
+.w21{
+    text-align: center;
+    padding: 0.2em;
+}
+.w22{
+    text-align: center;
+    padding: 0.2em;
+    padding-bottom: 4em;
+}
+#wat{
+    
+    display:flex;
+    height: 5em;
+}
+#wat1{
+   
+    display:flex;
+    flex:1;
+}
+#wat2{
+ 
+    display:flex;
+    flex:3;
+}
+#wat3{
+   
+    display:flex;
+    flex:1;
+}
+#can{
+    margin: auto;
+    font-size: 3em;
+    color: #1e836c;
+
+}
+#design{
+    display:flex;
+    height: 13em;
+    display: flex;
+}
+.ps1{
+   display: flex;
+   flex:1;
+  
+}
+#ps2{
+    display: flex;
+    flex:4;
+   
+}
+#cp1{
+    display: flex;
+    flex:1;
+   
+}
+#cp2{
+    display: flex;
+    flex:1.2;
+    flex-direction: column;
+ 
+}
+#psimage{
+    height: 11em;
+}
+#want{
+    line-height: 3em;
+    color: #45b29a;
+    font-size: 1.5em;
+    padding-left: 4em;
+}
+.psp1{
+    padding-left: 6em;
+}
+
+#toy2img{
+    display: flex;
+    border-radius: 92px;
+    background-color: rgb(230, 233, 229);
+    height: 9em;
+    width: 37%;
+    margin: auto;
+}
+#toy3{
+    display: flex;   
+    width: 19%;
+    animation-iteration-count: infinite;
+    margin: auto;
+    height: 4.8em;
+    background-image: url(eye.png);
+    border-radius: 87px;
+    animation-name: example;
+    animation-duration: 5s;
+    
+}
+#develop{
+    display:flex;
+    height: 20em;
+    display: flex;
+  
+}
+.dev1{
+    display: flex;
+    flex:1;
+  
+ }
+ .dn11{
+
+ }
+ #dev2{
+    display: flex;
+    flex:4;
+
+ }
+#need{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+  
+}
+#mobtoy{
+    display: flex;
+    flex:1;
+    padding-bottom: 7em;
+}
+#mob{
+    display: flex;
+    width: 19%;
+    animation-iteration-count: infinite;
+    margin: auto;
+    height: 4.8em;
+    background-image: url(sys.png);
+    border-radius: 87px;
+    animation-name: example;
+    animation-duration: 5s;
+
+}
+#sistoy{
+    display: flex;
+    border-radius: 92px;
+    
+    height: 9em;
+    
+    margin: auto;
+}
+#need1{
+    line-height: 3em;
+    color: #45b29a;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+.dn1{
+    padding-left: 3.2em;
+    font-size: 16px;
+}
+#helpdiv{
+    display: flex;
+   
+    height: 35em;
+}
+.hel1{
+    flex: 1;
+    display: flex;
+
+}
+#hel2{
+    flex: 2.2;
+    display: flex;
+
+    flex-direction: column;
+}
+#i-can{
+    display: flex;
+    flex-direction: column;
+}
+.mgs:hover{
+    background-color: #aeeee0;
+
+}
+.mgs{
+    background-color: #5abba6;
+    width: 31%;
+    height: 4em;
+    display: flex;
+    
+    margin: auto;
+    border-radius: 5px;
+}
+#ican{
+    font-size: 3em;
+    margin: auto;
+    padding-top: 2em;
+    color: #1e836c;
+}
+#imc{
+    font-size: 1.7em;
+ margin: auto;
+    padding-top: 1.7em;
+    color: #45b29a;
+}
+#if{
+    margin: auto;
+    font-size: 20px;
+    padding-top: 2.7em;
+}
+#with{
+    margin: auto; 
+    font-size: 20px;
+}
+#mail{
+    font-size: 25px;
+    color: black;
+    padding-left: 1em;
+    margin: auto;
+}
+#mgsme{
+    margin: auto;
+    color: black;
+    padding-right: 2em;
+}
+footer {
+    background-color: #c5ded7;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+}
+#f1{
+    display: flex;
+    background-color: #c5ded7;
+    height: 5em;
+    margin: auto;
+    width: 43em;
+}
+#sean{
+    display: flex;
+    background-color: #c5ded7;
+    height: 2em;
+    margin: auto;
+    width: 43em;
+}
+#sean1{
+    margin: auto;
+    color: #2b816f;
+}
+.sean2:hover{
+    color: #000;
+}
+.sean2{
+   text-decoration: underline;
+}
+#list2{
+    list-style-type: none;   
+    display: flex; 
+    color: #2b816f;
+ }
+ .l1:hover{
+     color: #000;
+ }
+.l1{
+    padding-left: 2em;
+    
+    font-size: 1.2em;
+}
+.l2:hover{
+    color: #000;
+}
+.l2{
+    padding-left: 6em;
+    font-size: 1.2em;
+}
+.l3:hover{
+    color: #000;
+}
+.l3{
+    padding-left: 6em;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+@keyframes example {
+    0%  
+     {background-position:0 0;
+    }
+    25%  {background-position:0 30px;
+    }
+    50%  {background-position:0 60px;
+    }
+    75%  {background-position:0 120px;
+    }
+    100% {background-position:0 240px;
+    }
+  }
+  
+
+
+
+
+
+
+@media only screen and (min-width: 1920px)
+{
+         #list1{
+          padding: 1em;
+         }
+         #toy{
+             padding-right: 33em;
+         }
+         #treepic{
+            padding-left: 7em;
+         }
+         #hiimg{
+            width: 10%;
+            
+         }
+         #tow2{
+            height: 31em;
+         }
+         #hi{
+             font-size: 2em;
+         }
+         .w1{
+            font-size: 1.6em;
+         }
+         .w21{
+            font-size: 1.6em;
+         }
+         .w22{
+            font-size: 1.6em;
+         }
+         #wat{
+            height: 16em;
+         }
+         #can{
+            font-size: 4em;
+         }
+         #cp1{
+            padding-left: 3em;
+         }
+         #want{
+            font-size: 2em;
+         }
+         .psp1{
+            font-size: 1.5em;
+         }
+         #toy2img{
+            width: 9em;
+            height: 9.3em;
+         }
+         #toy3{
+            width: 5em;
+         }
+         #need1{
+            font-size: 2em;
+            padding-bottom: 0em;
+            padding-top: 1em;
+            padding-left: 5em;
+         }
+         .dn1{
+            font-size: 1.5em;
+            padding-bottom: 0em;       
+            padding-left:6.5em;
+         }
+         #mob{
+            width: 5em;
+         }
+         #sistoy{
+            padding-right: 6em;
+         }
+         .mgs{
+            width: 14em
+         }
+} 
+
+
+
+
+
+@media only screen and (max-width: 1080px)
+{
+ 
+    #image1{
+        padding-left: 5.6em;
+    }
+ 
+    .Work{
+        padding-left: 2em;
+    }
+    .notes{
+        padding-left: 2em;
+    }
+    #clouddiv{
+        height: 20em;
+    }
+    
+    #hiimg{
+        padding-right: 3em;
+    }
+    #toy3{
+        width: 4.7em;
+    }
+    #toy2img{
+        width: 9em;
+    }
+    #psimage{
+        height: 10em;
+        margin-left: 0.3em;        
+        margin-top: 0.5em;
+    }
+    #ps2{
+        flex-direction: column;
+        height: 27em;
+    }
+    #design{
+        height: 26em;
+    }
+
+    #develop{
+        height: 26em;
+    }
+
+    #dev2{
+        flex-direction: column-reverse;
+    }
+    #mobtoy{
+        padding-bottom: 0em;
+    }
+    #mob{
+        width: 4.7em;
+    }
+ 
+}
+@media only screen and (max-width: 800px)
+{
+    #treepic{
+        width: 30em;
+        height: 16em;
+        padding-top: 3em;
+    }
+    #hiimg{
+        padding-right: 4em;
+    }
+    #ps2{
+        height: 35em;
+    }
+    #need1{
+        line-height: 2em;
+        margin-left: 2em;
+    }
+    .dn1{
+        padding-left: 6em;
+    }
+
+}
+@media only screen and (max-width: 515px)
+{
+
+
+    #image1{
+      padding-left: 1em;
+    }
+ 
+    #list1{
+        margin-left: -4em; 
+    }
+    .about{
+        padding-left: 6em;
+    }
+    .Work{
+        padding-left: 1em;
+    }
+    .notes{
+        padding-left: 1em;
+    }
+    #design{
+        height: 35em;
+    }
+    #treepic{
+        width: 21.8em;
+        height: 10em;       
+        padding-top: 9em;;
+    }
+    #hiimg{
+        padding-right: 5em;
+    }
+    #i-can{
+        width: 14em;
+    }
+  
+    #want{
+        padding-left: 0em;
+        line-height: 2em;
+    }
+    .psp1{
+        padding-left: 1em;
+        
+    }
+    #need1{
+        margin-left: -2em;
+    }
+    .dn1{
+        margin-left: -5em;
+    }
+
+}
+@media only screen and (max-width: 470px)
+{
+    #ram{
+      font-size: 3em;
+    }
+    #cloudpic1{
+        margin-left: -1.4em;
+    }
+  
+    #hiimg{
+        padding-right: 6em;
+    }
+ 
+    #can{
+        padding-left: 0.7em;
+    }
+ 
+}
+@media only screen and (max-width: 326px)
+{
+    #ram{
+      font-size: 3.5em;
+    }
+    #cloudpic1 {
+
+        margin-left: -2.5em;
+    }
+    #ps2{
+        height: 42em;
+    }
+    #sistoy{
+        margin-bottom: -3em;
+    }
+    #image1{
+        width: 2.9em;
+    }
+    #mob{
+        margin-bottom: -1em;
+    }
+    #i-can{
+        width: 14em;
+    }
+    #treepic {
+        width: 19.8em;
+      height: 10em;
+
+     }
+     #cloudpic2{
+        width: 7em;
+     }
+  
+}
+@media only screen and (max-width: 1255px)
+{
+       
+        .mgs{
+            width: 13em;
+        }
+}    
+@media only screen and (max-width: 736px)
+{
+    .l1{
+        padding-left: 0em;
+    }
+    .l2{
+        padding-left: 4em;
+    }
+    .l3{
+        padding-left: 4em;
+    }
+    #f1{
+        width: 23em;
+    }
+    #sean{
+        width: 23em;
+    }
+}
+@media only screen and (max-width: 442px)
+{
+ 
+    .l1{
+        padding-left: 0em;
+    }
+    .l2{
+        padding-left: 1em;
+    }
+    .l3{
+        padding-left: 1em;
+    }
+    #f1{
+        width: 16em;
+
+    }
+    #sean{
+        width: 12em;
+    }
+}
+@media only screen and (max-width: 656px)
+{
+   
+     #list1{
+        width: 5em;
+    }
+}
+

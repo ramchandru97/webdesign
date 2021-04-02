@@ -1,0 +1,862 @@
+*{
+   padding: 0;
+   margin: 0;
+
+}
+
+
+#head{
+
+    background: #e0ebe8;
+    display:flex;
+
+}
+#atoy{
+
+   background: #e0ebe8;
+   flex: 1;
+  
+}
+#aimage1{
+
+  width: 5em;
+  padding-left: 14em;
+
+}
+#alist{
+  background: #e0ebe8;
+  flex: 1;
+}
+.about2:hover{
+   color: #000;
+}
+.about2{
+   font-size: 1.3em;
+   color: #45b29a;
+}
+.Work2:hover{
+   color: #000;
+}
+.Work2{
+   color: #45b29a;
+   font-size: 1.3em;
+}
+.notes2:hover{
+   color: #000;
+}
+.notes2{
+   color: #45b29a;
+   font-size: 1.3em;
+}
+#alist1{
+ list-style-type: none;   
+ display: flex; 
+ justify-content:space-evenly;
+ padding: 1em 10em 0em 5em;
+
+}
+#aclouddiv{
+   
+   height: 20em;  
+   background: #e0ebe8;
+   display:flex;
+}
+#acdiv1{
+   display:flex;
+   flex:1;
+   background: #e0ebe8;
+   flex-direction: row-reverse;
+}
+#aflag1{
+   display:flex;
+   flex:0.5;
+   background: #e0ebe8;
+}
+#aflag2{
+   display:flex;
+   flex:0.5;
+   background: #e0ebe8;
+}
+#alf{
+   display: flex;
+   background: #e0ebe8;
+   width: 6em;  
+   height: 20em; 
+   margin: auto;
+}
+#arf{
+   display: flex;
+   background: #e0ebe8;
+   width: 6em;  
+   height: 20em; 
+   margin: auto;
+}
+#aleftflag{
+   height: 10em;
+   padding-left: 2.8em;  
+   padding-top: 10em;
+}
+#arightflag{
+   height: 10em;
+   padding-right: 2.8em; 
+   padding-top: 10em;
+}
+#acdiv2{
+   display:flex;
+   flex:1.3;
+   background: #e0ebe8;
+   flex-direction: column;
+   justify-content: center
+}
+#acdiv3{
+   display:flex;
+   flex:1; 
+   background: #e0ebe8;
+}
+#acloudpic1{
+   width: 9em;
+   height: 3em;
+   padding-top: 4em;
+}
+#acloudpic2{
+   width: 9em;
+   height: 3em;    
+   padding-top: 3em; 
+}
+
+@font-face{
+   font-family: ram2;
+   src: url(khong.ttf);
+}
+#ram2{
+   text-align: center;
+   font-family: ram2;
+   font-size: 6em;
+   color: #45b29a;
+}
+#longdiv{
+   display: flex;
+  
+   height: 105em;
+}
+#ldiv1{
+   display: flex;
+ 
+   flex: 1em;
+  
+}
+#ldiv2{
+   display: flex;
+   width: 50em;
+   flex-direction: column;
+}
+#ndiv1{
+   display: flex;
+
+  
+   text-align: center;
+   flex-direction: column;
+   padding: 5em;
+
+}
+#out{
+   font-size: 3em;
+   margin: 0;
+
+}
+#life{
+   font-size: 1.7em;
+   margin: 0;
+}
+#ndiv2{
+   display: flex;
+ 
+ 
+}
+#phone{
+   width: 49em;
+}
+#ndiv2{
+     
+}
+#ndiv3{
+   display: flex;
+
+
+}
+#para5{
+   font-size: 2.3em;
+   margin: revert;
+}
+#ndiv4{
+   display: flex;
+ 
+}
+#first{
+   font-size: 1.5em;
+   line-height: 1.2em;
+   margin: revert;
+}
+.spanc{
+   text-decoration: underline;
+   color: #45b29a;
+}
+#ndiv5{
+   display: flex;
+
+ 
+}
+#why{
+   font-size: 1.5em;
+   line-height: 1.2em;
+   margin: revert;
+}
+#ndiv6{
+   display: flex;
+
+
+}
+#not{
+   font-size: 1.5em;
+   line-height: 1.2em;
+   margin: revert;
+}
+#ndiv7{
+   display: flex;
+
+ 
+}
+#in{
+   font-size: 1.5em;
+   line-height: 1.2em;
+   margin: revert;
+}
+#ahelpdiv{
+   display: flex;
+  
+   height: 35em;
+}
+.ahel1{
+   flex: 1;
+   display: flex;
+
+}
+#ahel2{
+   flex: 2.2;
+   display: flex;
+
+   flex-direction: column;
+}
+#ai-can{
+   display: flex;
+   flex-direction: column;
+}
+.amgs:hover{
+   background-color: #aeeee0;
+
+}
+.amgs{
+   background-color: #5abba6;
+   width: 31%;
+   height: 4em;
+   display: flex;
+   
+   margin: auto;
+   border-radius: 5px;
+}
+#aican{
+   font-size: 3em;
+   margin: auto;
+   padding-top: 2em;
+   color: #1e836c;
+}
+#aimc{
+   font-size: 1.7em;
+   margin: auto;
+      padding-top: 1.7em;
+      color: #45b29a;
+}
+#aif{
+   margin: auto;
+   font-size: 20px;
+   padding-top: 2.7em;
+}
+#awith{
+   margin: auto; 
+   font-size: 20px;
+}
+#amail{
+   font-size: 25px;
+   color: black;
+   padding-left: 1em;
+   margin: auto;
+}
+#amgsme{
+   margin: auto;
+   color: black;
+   padding-right: 2em;
+}
+footer {
+   background-color: #c5ded7;
+   display: flex;
+   padding: 2em;
+   flex-direction: column;
+}
+#af1{
+   display: flex;
+   background-color: #c5ded7;
+   height: 5em;
+   margin: auto;
+   width: 43em;
+}
+#asean{
+   display: flex;
+   background-color: #c5ded7;
+   height: 2em;
+   margin: auto;
+   width: 43em;
+}
+#asean1{
+   margin: auto;
+   color: #2b816f;
+}
+.asean2:hover{
+   color: #000;
+}
+.asean2{
+  text-decoration: underline;
+}
+#alist2{
+   list-style-type: none;   
+   display: flex; 
+   color: #2b816f;
+}
+.al1:hover{
+    color: #000;
+}
+.al1{
+   padding-left: 2em;
+   
+   font-size: 1.2em;
+}
+.al2:hover{
+   color: #000;
+}
+.al2{
+   padding-left: 6em;
+   font-size: 1.2em;
+}
+.al3:hover{
+   color: #000;
+}
+.al3{
+   padding-left: 6em;
+   font-size: 1.2em;
+}
+
+
+
+
+@media only screen and (max-width: 1080px)
+{
+ 
+    #aimage1{
+        padding-left: 5.6em;
+    }
+   
+   #ndiv2{
+      width: 43em;
+      margin: auto;
+   }
+    .Work2{
+        padding-left: 2em;
+    }
+    .notes2{
+        padding-left: 2em;
+    }
+    #aclouddiv{
+        height: 20em;        
+    }
+    #ahiimg{
+        padding-right: 3em;
+    }
+    #adesign{
+        height: 26em;
+    }
+ 
+    #adevelop{
+        height: 26em;
+    }
+    
+    #adev2{
+        flex-direction: column-reverse;
+    }
+    #amobtoy{
+        padding-bottom: 0em;
+    }
+    #amob{
+        width: 4.7em;
+    }
+    
+    #artable{
+        width: 38em;
+         height: 24em;
+         padding-bottom: 6em;
+
+    }
+}
+@media only screen and (max-width: 800px)
+{
+   
+    #ahiimg{
+        padding-right: 4em;
+    }
+   
+    #aneed1{
+        line-height: 2em;
+        padding-left: 1em;
+    }
+    #ndiv2{
+      width: 34em;
+      margin: auto;
+    }
+    #ndiv3{
+      width: 45em;
+    }
+    #ndiv4{
+      width: 45em;
+    }
+    #ndiv5{
+      width: 45em;
+    }
+    #ndiv6{
+      width: 45em;
+    }
+    #ndiv7{
+      width: 45em;
+    }
+    #aleftflag{
+        height: 7em;
+        padding-top: 13em;
+    }
+    #arightflag{
+        height: 7em;
+        padding-top: 13em;
+    }  
+    #artable{
+        width: 32em;
+        height: 17em;
+        padding-bottom: 15em;
+    }
+    #ad1{
+        height: 20em;
+    }
+    #aparag1{
+        width: 31em;
+    }
+    #apencil{
+        padding-left: 3em;
+    }
+}
+
+@media only screen and (max-width: 515px)
+{
+  
+    #aimage1{
+      padding-left: 1em;
+    }
+    #alist1{
+        margin-left: -4em; 
+    }
+    #alist1{
+        margin-left: -4em; 
+    }
+    .about2{
+        padding-left: 6em;
+    }
+    .work2{
+        padding-left: 1em;
+    }
+    .notes2{
+        padding-left: 1em;
+    }
+   
+  
+    
+}
+@media only screen and (max-width: 470px)
+{
+    #ram2{
+      font-size: 3em;
+    }
+    #acloudpic1{
+        margin-left: -1.4em;
+    }
+   
+    #ahiimg{
+        padding-right: 6em;
+    }
+    
+    #ldiv2{
+    
+    }
+    #acan{
+        padding-left: 0.7em;
+    }
+    
+    #ram2{
+        font-size: 5em;
+    }
+     
+}
+@media only screen and (max-width: 326px)
+{
+    #ram2{
+      font-size: 3.5em;
+    }
+    #acloudpic1 {
+      width: 8em;
+        margin-left: -2.5em;
+    }
+  
+    #aimage1{
+        width: 3.6em;
+    }
+   
+    #ai-can{
+        width: 14em;
+    }
+   
+     #acloudpic2{
+      width: 8em;
+     }
+   
+    #ram2{
+        font-size: 5em;
+    }
+    
+}
+@media only screen and (max-width: 1255px)
+{
+       
+        .amgs{
+            width: 13em;
+        }
+       
+}    
+@media only screen and (max-width: 736px)
+{
+    .al1{
+        padding-left: 0em;
+    }
+    .al2{
+        padding-left: 4em;
+    }
+    .al3{
+        padding-left: 4em;
+    }
+    #af1{
+        width: 23em;
+    }
+    #asean{
+        width: 23em;
+    }
+    #arightflag{
+        margin-left: -4em;
+    }
+    #aleftflag{
+        margin-left: -3em;
+    }
+    #ram2{
+        font-size: 5em;
+        margin-left: -1.3em;
+    }
+    #acloudpic2{
+        margin-left: -4em;
+    }
+    #acloudpic1{
+        margin-left: 2em;
+    }
+   
+    #ndiv2{
+      width: 30em;
+   }
+    #ndiv3{
+      width: 40em;
+      font-size: 0.8em;     
+      padding-left: 6em;
+   }
+   #ndiv4{
+      width: 40em;
+      font-size: 0.8em;     
+      padding-left: 6em;
+   }
+   #ndiv5{
+      width: 40em;
+      font-size: 0.8em;    
+      padding-left: 6em;
+   }
+   #ndiv6{
+      width: 29em;
+     font-size: 0.8em;     
+      padding-left: 6em;
+   }
+   #ndiv7{
+      width: 28em;
+      font-size: 0.8em;     
+      padding-left: 6em;
+   }
+    #apara3{
+        width: 12em;    
+    }
+    #aui{
+        padding-right: 3em;
+    }
+    #ndiv1{
+      padding-right: 11em;
+   }
+}
+@media only screen and (max-width: 442px)
+{
+    #arf{
+      width: 4em;
+    }
+    .al1{
+        padding-left: 0em;
+    }
+    .al2{
+        padding-left: 1em;
+    }
+    .al3{
+        padding-left: 1em;
+    }
+    #af1{
+        width: 16em;
+
+    }
+    #asean{
+        width: 12em;
+    }
+   
+    #ram2{
+        font-size: 5em;
+    }
+    .aview{
+        margin-right: em;
+    }
+    #phone
+    {
+      width: 18em;
+    }
+}
+@media only screen and (max-width: 656px)
+{
+   
+     #alist1{
+        width: 5em;
+    }
+    #aimage1{
+        padding-left: 2.6em;
+    }
+    #alist1{
+        margin-left: -5em;
+
+        font-size: 0.9em;
+    }
+    #arightflag{
+        margin-left: -1em;
+    }
+    #aleftflag{
+        margin-left: -8em;
+    }
+    #ram2{
+        font-size: 5em;
+        margin-left: -1.7em;
+    }
+    #acloudpic2{
+        margin-left: -5em;
+    }
+    #ndiv2{
+      margin: inherit;
+      width: 24em;    
+      padding-left: 4em;
+   }
+    #ndiv3{
+      width: 30em;
+   }
+   #ndiv4{
+      width: 30em;
+   }
+   #ndiv5{
+      width: 30em;
+   }
+    #pencil{
+        padding-left: 4em;
+
+    }
+    #artable{
+        width: 24em;
+         height: 13em;
+         padding-bottom: 19em;
+         padding-right: 5em;
+
+    }
+    #aparag1{
+        width: 21em;
+        padding-right: 10em;
+    }
+    #areser{
+        font-size: 2em;
+         margin-left: -2em;
+         margin-top: -3em;
+    }
+    #out{
+      width: 9em;
+    }
+    #life{
+      width: 14em;
+    }
+    #ndiv1{
+      width: 15em;
+   }
+    
+}
+@media only screen and (max-width: 520px)
+{
+    #aimage1{
+        padding-left: 1em;
+        width: 4em;
+    }
+    #ndiv2{
+      
+      width: 7em;
+      padding-right: 10em;  
+      height: 13em;   
+      margin-left: -3em;
+   }
+    #ndiv3{
+      padding-left: 2em;
+      width: 25em
+   }
+   #ndiv4{
+      padding-left: 2em;
+      width: 25em
+   }
+   #ndiv5{
+      padding-left: 2em;
+      width: 25em
+   }
+   #ndiv6{
+      padding-left: 2em;
+      width: 25em
+   }
+   #ndiv7{
+      padding-left: 2em;
+      width: 25em
+   }
+    #alist1{
+        margin-left: -10em;
+        font-size: 0.8em;
+    }
+    #ahelpdiv{
+      height: 51em;
+
+     }
+    #ahel2{
+      padding-top: 0em;
+    }
+    #ram2{
+        font-size: 5em;
+        margin-left: -2em;
+    }
+    #acloudpic2{
+        margin-left: -10em;
+    }
+    #phone{
+      width: 18em;
+
+      height: 13em;
+    }
+   ]
+    #artable{
+        height: 11em;
+
+        padding-bottom: 20em;
+        
+        width: 18em;
+        
+        padding-right: 18em;
+     }
+ ]
+     .aview{
+        margin-right: 15.5em;
+    }
+    #out{
+      width: 5em;
+    }
+    #life{
+      width: 8em;
+    }
+    #ndiv1{
+      width: 3em;
+   }
+}    
+@media only screen and (max-width: 365px)
+{
+    #artable{
+        width: 20em;
+        height: 11em;
+        padding-right: 13em;
+    }
+ ]
+    #ldiv2{
+      width: 19em;
+    }
+]
+    #acloudpic2{
+        margin-left: -11em;
+    }
+    #ram2{
+        margin-left: -2.5em;
+    }
+    #arightflag{
+     margin-left: -2em;
+    }
+    #aleftflag{
+        margin-left: -8em;
+    }
+    #ndiv1{
+      font-size: 0.8em;
+      margin-left: 1em;
+   }
+   #ndiv2{
+      margin-left: -3.6em;
+
+      width: 7em;
+   }
+   #ndiv3{
+      padding-left: 1em;
+
+      width: 23em;
+   }
+   #ndiv4{
+      padding-left: 1em;
+
+      width: 22em;
+   }
+   #ndiv5{
+      padding-left: 1em;
+
+      width: 22em;
+   }
+   #ndiv6{
+      padding-left: 1em;
+
+      width: 22em;
+   }
+   #ndiv7{
+      padding-left: 1em;
+
+      width: 22em;
+   }
+}

@@ -1,0 +1,832 @@
+*{
+    padding: 0;
+    margin: 0;
+
+ }
+ 
+
+#head{
+
+     background: #e0ebe8;
+     display:flex;
+ 
+}
+
+#worktoy{
+
+    background: #e0ebe8;
+    flex: 1;
+   
+}
+#workimage1{
+ 
+   width: 5em;
+   padding-left: 14em;
+
+}
+#worklist{
+   background: #e0ebe8;
+   flex: 1;
+}
+.about1:hover{
+    color: #000;
+}
+.about1{
+    font-size: 1.3em;
+    color: #45b29a;
+}
+.Work1:hover{
+    color: #000;
+}
+.Work1{
+    color: #45b29a;
+    font-size: 1.3em;
+    padding-left: 3em;
+}
+.notes1:hover{
+    color: #000;
+}
+.notes1{
+    color: #45b29a;
+    font-size: 1.3em;
+    padding-left: 3em;
+}
+#worklist1{
+  list-style-type: none;   
+  display: flex; 
+  justify-content:space-evenly;
+  padding-top: 1em;
+  padding-right: 5em;
+ 
+}
+#workclouddiv{
+   
+    height: 20em;  
+    background: #e0ebe8;
+    display:flex;
+}
+#workcdiv1{
+    display:flex;
+    flex:1;
+    background: #e0ebe8;
+    flex-direction: row-reverse;
+}
+#flag1{
+    display:flex;
+    flex:0.5;
+    background: #e0ebe8;
+}
+#flag2{
+    display:flex;
+    flex:0.5;
+    background: #e0ebe8;
+}
+#lf{
+    display: flex;
+    background: #e0ebe8;
+    width: 6em;  
+    height: 20em; 
+    margin: auto;
+}
+#rf{
+    display: flex;
+    background: #e0ebe8;
+    width: 5em;  
+    height: 20em; 
+    margin: auto;
+}
+#leftflag{
+    height: 10em;
+    padding-left: 2.8em;  
+    padding-top: 10em;
+}
+#rightflag{
+    height: 10em;
+    padding-right: 2.8em; 
+    padding-top: 10em;
+}
+#workcdiv2{
+    display:flex;
+    flex:1.3;
+    background: #e0ebe8;
+    flex-direction: column;
+    justify-content: center
+}
+#workcdiv3{
+    display:flex;
+    flex:1; 
+    background: #e0ebe8;
+}
+#workcloudpic1{
+    width: 9em;
+    height: 3em;
+    padding-top: 5em;
+}
+#workcloudpic2{
+    width: 9em;
+    height: 3em;    
+    padding-top: 4em; 
+}
+
+@font-face{
+    font-family: ram1;
+    src: url(khong.ttf);
+}
+#ram1{
+    text-align: center;
+    font-family: ram1;
+    font-size: 6em;
+    color: #45b29a;
+}
+#worktoydiv2{
+
+    display:flex;
+    height: 30em;
+}
+#wtow1{
+    display:flex;
+    flex:1;
+}
+#wtow2{
+    display:flex;
+    flex: 1.5;
+    flex-direction: column;
+}
+#whiimg{
+    display: flex;
+    flex: 1.3;
+   
+}
+#pencil{
+    width: 11.3em;
+    margin: auto;
+    margin: auto;
+    padding-top: 2em;
+}
+#parg{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+#para1{
+    font-size: 1.9em;     
+    line-height: 2.3em;
+    color: #a045b2;
+}
+#para2{
+    font-size: 1.2em;
+   
+}
+.dribble:hover{
+    color: black;
+}
+.dribble{
+    color: #7511d3;
+    text-decoration: underline;
+}
+#wtow3{
+  
+    display:flex;
+    flex:1;
+}
+#wpicdiv{
+    display:flex;
+    flex:1;
+    background: #7dcc93;
+    height: 60em;
+}
+#wpicd1{
+    display:flex;
+    flex:1;
+    background: #7dcc93;
+}
+#wpicd2{
+    display:flex;
+   
+    background: #7dcc93;
+    flex-direction: column;
+}
+#rtable{
+    width: 40em;
+    height: 24em;   
+    margin: auto;
+}
+#d1{
+    display:flex;
+    background: #7dcc93;
+   flex: 2;
+}
+#d2{
+    display: flex;
+
+flex: 1.5;
+
+background: #7dcc93;
+
+text-align: center;
+
+flex-direction: column;
+}
+#d3{
+    display: flex;
+
+background: #7dcc93;
+
+height: 7em;
+
+width: 40em;
+
+margin: auto;
+
+}
+
+#reser{
+    font-size: 2.7em;
+   
+    color: aliceblue;
+}
+#ui{
+    font-size: 1.5em;
+   
+    color: aliceblue;
+  
+}
+#para3{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: aliceblue;
+    
+}
+#parag1{
+    width: 40em;
+
+    height: 2em;
+}
+
+.view:hover{
+    background-color: #173ebe;
+}
+.view{
+    display: flex;
+    margin: auto;
+    background-color: #03103b;
+    width: 16em;
+    height: 4em;
+    border-radius: 5px; 
+}
+.on{
+    margin: auto;
+    color: whitesmoke;
+    font-size: 1.em;
+    font-size: 1.2em;
+}
+#whelpdiv{
+    display: flex;
+   
+    height: 35em;
+}
+.whel1{
+    flex: 1;
+    display: flex;
+
+}
+#whel2{
+    flex: 2.2;
+    display: flex;
+
+    flex-direction: column;
+}
+#wi-can{
+    display: flex;
+    flex-direction: column;
+}
+.wmgs:hover{
+    background-color: #aeeee0;
+
+}
+.wmgs{
+    background-color: #5abba6;
+    width: 31%;
+    height: 4em;
+    display: flex;
+    
+    margin: auto;
+    border-radius: 5px;
+}
+#wican{
+    font-size: 3em;
+    margin: auto;
+    padding-top: 2em;
+    color: #1e836c;
+}
+#wimc{
+    font-size: 1.7em;
+    margin: auto;
+       padding-top: 1.7em;
+       color: #45b29a;
+}
+#wif{
+    margin: auto;
+    font-size: 20px;
+    padding-top: 2.7em;
+}
+#wwith{
+    margin: auto; 
+    font-size: 20px;
+}
+#wmail{
+    font-size: 25px;
+    color: black;
+    padding-left: 1em;
+    margin: auto;
+}
+#wmgsme{
+    margin: auto;
+    color: black;
+    padding-right: 2em;
+}
+footer {
+    background-color: #c5ded7;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+}
+#wf1{
+    display: flex;
+    background-color: #c5ded7;
+    height: 5em;
+    margin: auto;
+    width: 43em;
+}
+#wsean{
+    display: flex;
+    background-color: #c5ded7;
+    height: 2em;
+    margin: auto;
+    width: 43em;
+}
+#wsean1{
+    margin: auto;
+    color: #2b816f;
+}
+.wsean2:hover{
+    color: #000;
+}
+.wsean2{
+   text-decoration: underline;
+}
+#wlist2{
+    list-style-type: none;   
+    display: flex; 
+    color: #2b816f;
+ }
+ .wl1:hover{
+     color: #000;
+ }
+.wl1{
+    padding-left: 2em;
+    
+    font-size: 1.2em;
+}
+.wl2:hover{
+    color: #000;
+}
+.wl2{
+    padding-left: 6em;
+    font-size: 1.2em;
+}
+.wl3:hover{
+    color: #000;
+}
+.wl3{
+    padding-left: 6em;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1080px)
+{
+ 
+    #workimage1{
+        padding-left: 5.6em;
+    }
+ 
+    .Work1{
+        padding-left: 0em;
+    }
+    .notes1{
+        padding-left: 0em;
+    }
+    #workclouddiv{
+        height: 20em;
+        
+    }
+    
+    #whiimg{
+      
+    }
+    #workdesign{
+        height: 26em;
+    }
+ 
+    #wdevelop{
+        height: 26em;
+    }
+   
+    #wdev2{
+        flex-direction: column-reverse;
+    }
+    #wmobtoy{
+        padding-bottom: 0em;
+    }
+    #wmob{
+        width: 4.7em;
+    }
+  
+    #rtable{
+        width: 38em;
+       height: 24em;
+       
+    }
+ 
+}
+@media only screen and (max-width: 800px)
+{
+   
+    #whiimg{
+        padding-right: 4em;
+    }
+  
+    #leftflag{
+        height: 7em;
+
+        padding-top: 13em;
+    }
+    #rightflag{
+        height: 7em;
+        padding-top: 13em;
+    }  
+    #rtable{
+        width: 33em;
+
+        height: 28em;
+        
+        margin-left: 4em;
+    }
+    #d1{
+        height: 19em;
+
+        width: 33em;
+        
+    }
+    #parag1{      
+     
+    }
+   
+    #wpicd2{
+        width: 40em;
+    }
+    #pencil{
+        padding-left: 3em;
+    }
+}
+
+@media only screen and (max-width: 515px)
+{
+
+
+    #workimage1{
+      padding-left: 1em;
+    }
+     
+    #list1{
+        margin-left: -4em; 
+    }
+    #worklist1{
+        margin-left: -4em; 
+    }
+  
+
+}
+@media only screen and (max-width: 470px)
+{
+ 
+    #ram1{
+      font-size: 3em;
+    }
+    #workcloudpic1{
+        margin-left: -1.4em;
+    }
+   
+    #whiimg{
+        padding-right: 4em;
+    }
+    
+    #wcan{
+        padding-left: 0.7em;
+    }
+    #ram1{
+        font-size: 5em;
+    }
+    #leftflag {
+
+        
+    }
+  
+
+   
+}
+@media only screen and (max-width: 326px)
+{
+ 
+    #ram1{
+      font-size: 3.5em;
+    }
+    #workcloudpic1 {
+
+        margin-left: -2.5em;
+    }
+  
+    #workimage1{
+        width: 3.6em;
+    }
+   
+    #wi-can{
+        width: 14em;
+    }
+   
+     #workcloudpic2{
+        width: 7em;
+     }
+ 
+    #ram1{
+        font-size: 5em;
+    }
+  
+}
+@media only screen and (max-width: 1255px)
+{
+       
+        .wmgs{
+            width: 13em;
+        }
+      
+}    
+@media only screen and (max-width: 736px)
+{
+    #wpicd2{
+        width: 35em;
+    }
+    .wl1{
+        padding-left: 0em;
+    }
+    .wl2{
+        padding-left:4em;
+    }
+    .wl3{
+        padding-left: 4em;
+    }
+    #wf1{
+        width: 23em;
+    }
+    #wsean{
+        width: 23em;
+    }
+    #rightflag{
+        margin-left: -4em;
+    }
+    #leftflag{
+        margin-left: -3em;
+    }
+    #ram1{
+        font-size: 5em;
+        margin-left: -1.3em;
+    }
+    #workcloudpic2{
+        margin-left: -4em;
+    }
+    #workcloudpic1{
+        margin-left: 1em;
+  
+    #rtable{
+        width: 30em;
+        margin-left: 3em;
+        height: 21em
+    }
+    #d3{
+        width: 30em;
+    }
+    #parag1{
+        width: 34em;
+    }
+}
+@media only screen and (max-width: 442px)
+{
+  
+    .wl1{
+        padding-left: 0em;
+    }
+    .wl2{
+        padding-left: 1em;
+    }
+    .wl3{
+        padding-left: 1em;
+    }
+    #wf1{
+        width: 16em;
+
+    }
+    #wsean{
+        width: 12em;
+    }
+   
+    #ram1{
+        font-size: 5em;
+    }
+   
+    .view{
+        margin-right: em;
+    }
+    #d1{
+        width: 15em;
+    }
+}
+@media only screen and (max-width: 656px)
+{
+     #worklist{
+       
+        font-size: 0.9em;
+        
+        width: 124px;
+     }
+     #wpicd2{
+        width: 31em;
+     }
+     #wlist1{
+        width: 5em;
+    }
+    #workimage1{
+        padding-left: 2.6em;
+    }
+    #worklist1{
+        margin-left: -5em;
+
+        font-size: 0.9em;
+    }
+    #rightflag{
+        margin-left: -1em;
+    }
+    #leftflag{
+        margin-left: -7em;
+    }
+    #ram1{
+        font-size: 5em;
+        margin-left: -1.6em;
+    }
+    #workcloudpic2{
+        margin-left: -5em;
+    }
+   
+    #pencil{
+        padding-left: 4em;
+
+    }
+    #rtable{
+        width: 23em;
+
+        height: 22em;
+        
+        margin-left: 3em;
+
+    }
+    #parag1{
+        width: 30em;
+       
+    }
+    #reser{
+        font-size: 2em;
+
+       
+    }
+    #d1{
+        padding-left: 0em;
+
+        width: 27em;
+    }
+    
+    #d3{
+        width: 26em;
+        
+    }
+   
+    
+}
+@media only screen and (max-width: 520px)
+{
+  
+    #workimage1{
+        padding-left: 1em;
+        width: 4em;
+    }
+   
+    #worklist1{
+        margin-left: -10em;
+        font-size: 0.8em;
+    }
+
+    #wpicd2{
+        width: 20em;
+    }
+    #ram1{
+        font-size: 5em;
+        margin-left: -2em;
+    }
+    #workcloudpic2{
+        margin-left: -10em;
+    }
+    
+    #rtable{
+        width: 19em;
+
+        height: 21em;
+        
+        margin-left: 0em;
+     }
+     #parag1{
+        margin-left: 2em;
+
+        font-size: 0.9em;
+        
+        width: 17em;
+     }
+    
+    #d1{
+        width: 15em;
+    }
+   
+    #d3{       
+        width: 13em;
+    }
+}    
+@media only screen and (max-width: 365px)
+{
+    #rtable{
+        width: 17em;
+
+        height: 15em;
+    }
+
+    #parag1{
+        margin-left: 0em; 
+    }
+   
+    #workcloudpic2{
+        margin-left: -11em;
+        width: 10em;
+    }
+    #ram1{
+       margin-left: -2.7em;
+    }
+    #rightflag{
+     margin-left: -3em;
+    }
+    #leftflag{
+        margin-left: -9em;
+    }
+    #para2{
+        padding-right: 0em;
+     
+    }
+    
+    #worklist1{
+     
+        font-size: 0.8em;
+        
+    }
+    #wpicd2{
+        width: 15em;
+    }
+    #rf{
+        width: 3em;
+    }
+   
+    #whiimg{
+        width: 13em;
+        padding-right: 4em;
+    }
+    #rtable{
+        width: 17em;
+
+        height: 15em;
+        
+        margin-left: -1em;
+    }
+
+}
